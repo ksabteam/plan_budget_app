@@ -1,18 +1,18 @@
 <resources>
     <string name="app_name">Budget Your Future</string>
     <string-array name="transaction_categories">
-        <string name="car_insurance">Car Insurance</string>
-        <string name="entertainment">Entertainment</string>
-        <string name="health_insurance">Health Insurance</string>
-        <string name="salary">Salary</string>
-        <string name="loan">Loan</string>
-        <string name="in_house_food">Food For Home</string>
-        <string name="hygiene">Hygiene</string>
-        <string name="rent">House Rent</string>
-        <string name="mortgage">Mortgage</string>
-        <string name="phone_rent">Phone</string>
-        <string name="gas">Fuel</string>
-        <string name="miscellaneous">Miscellaneous</string>
-        <string name="special_cases">Special Cases</string>
+        <item name="car_insurance">Car Insurance</item>
+        <item name="entertainment">Entertainment</item>
+        <item name="health_insurance">Health Insurance</item>
+        <item name="salary">Salary</item>
+        <item name="loan">Loan</item>
+        <item name="in_house_food">Food For Home</item>
+        <item name="hygiene">Hygiene</item>
+        <item name="rent">House Rent</item>
+        <item name="mortgage">Mortgage</item>
+        <item name="phone_rent">Phone</item>
+        <item name="gas">Fuel</item>
+        <item name="miscellaneous">Miscellaneous</item>
+        <item name="special_cases">Special Cases</item>
     </string-array>
 </resources>
