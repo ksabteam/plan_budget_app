@@ -17,20 +17,6 @@ open class BaseFragment : Fragment(), View.OnClickListener {
 
         Thread.setDefaultUncaughtExceptionHandler { paramThread, paramThrowable ->
             paramThrowable.printStackTrace(System.out)
-
-            /*val sdf = SimpleDateFormat("MM/dd HH:mm")
-            val tracker = AppPreference.getInstance(activity).getDefaultTracker()
-            tracker.send(HitBuilders.ExceptionBuilder()
-                    .setDescription(sdf.format(Date()) + "- " + paramThrowable.message + ": " + Arrays.asList(*paramThrowable.stackTrace).toString())
-                    .build())
-            GoogleAnalytics.getInstance(getActivity().applicationContext).dispatchLocalHits()
-
-            val intent = Intent(activity, SplashActivity::class.java)
-            intent.putExtra("RecoveringFromUncaughtException", true)
-            activity.startActivity(intent)
-
-            android.os.Process.killProcess(android.os.Process.myPid())
-            System.exit(10)*/
         }
     }
 
@@ -42,13 +28,7 @@ open class BaseFragment : Fragment(), View.OnClickListener {
      * This sets button back press listener
      */
     fun setOnBackPressedListener() {
-        /*view!!.isFocusableInTouchMode = true
-        view!!.requestFocus()
-        view!!.setOnKeyListener { v, keyCode, event ->
-            if (event.action == KeyEvent.ACTION_UP && keyCode == KeyEvent.KEYCODE_BACK) {
-                true
-            } else false
-        }*/
+
     }
 
     fun finish() {
